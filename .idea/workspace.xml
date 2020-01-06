@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d029740-a970-41fd-b583-62a02aacac3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/template/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/template/blog/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/template/blog/titles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/template/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/template/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/template/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/template/account/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/template/account/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/template/account/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/KellerZhang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/KellerZhang.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/template/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/account" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/account" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.test_01">
     <configuration name="test_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578048366344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="committed by keller">
+      <created>1578278550621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578278550621</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,12 +256,12 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1817" y="139" key="#Updates/1440.23.1920.1057/27.23.1413.877@1440.23.1920.1057" timestamp="1578035012402" />
-    <state x="2149" y="116" key="CommitChangelistDialog2" timestamp="1578048364916">
+    <state x="2149" y="116" key="CommitChangelistDialog2" timestamp="1578278549120">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2149" y="188" key="CommitChangelistDialog2/1440.23.1920.1057/26.23.1414.877@1440.23.1920.1057" timestamp="1577340486248" />
     <state x="2149" y="116" key="CommitChangelistDialog2/1440.23.1920.1057/28.23.1412.877@1440.23.1920.1057" timestamp="1578048364916" />
-    <state x="2149" y="116" key="CommitChangelistDialog2/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1578041714405" />
+    <state x="2149" y="116" key="CommitChangelistDialog2/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1578278549120" />
     <state x="548" y="100" key="CommitChangelistDialog2/26.23.1414.877@26.23.1414.877" timestamp="1577348497604" />
     <state width="1022" height="192" key="GridCell.Tab.0.bottom" timestamp="1577523729739">
       <screen x="28" y="23" width="1412" height="877" />
@@ -299,14 +306,18 @@
     <state x="217" y="133" key="SettingsEditor/1440.23.1920.1057/30.23.1410.877@30.23.1410.877" timestamp="1577529349838" />
     <state x="447" y="178" key="SettingsEditor/26.23.1414.877@26.23.1414.877" timestamp="1577348591785" />
     <state x="283" y="156" key="SettingsEditor/33.23.1887.1057@33.23.1887.1057" timestamp="1577781150860" />
-    <state x="1808" y="269" key="Vcs.Push.Dialog.v2" timestamp="1578048374331">
+    <state x="1808" y="269" key="Vcs.Push.Dialog.v2" timestamp="1578278569553">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1808" y="269" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/28.23.1412.877@1440.23.1920.1057" timestamp="1578048374331" />
-    <state x="1808" y="269" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1578041753738" />
+    <state x="1808" y="269" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/29.23.1411.877@1440.23.1920.1057" timestamp="1578278569553" />
     <state x="2216" y="348" key="git4idea.merge.GitPullDialog" timestamp="1575422013854">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2216" y="348" key="git4idea.merge.GitPullDialog/1440.23.1920.1057/35.23.1405.877@1440.23.1920.1057" timestamp="1575422013854" />
+    <state x="1983" y="360" width="670" height="676" key="search.everywhere.popup" timestamp="1578295266957">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1983" y="360" width="670" height="676" key="search.everywhere.popup/1440.23.1920.1057/33.23.1407.877@1440.23.1920.1057" timestamp="1578295266957" />
   </component>
 </project>
